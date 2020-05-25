@@ -1,0 +1,38 @@
+body {
+	margin-left: 20%;
+	margin-right: 20%;
+
+}
+
+
+#header {
+	display: inline;	
+}
+
+#header img {
+	display: inline-block;
+	width : 125px;
+	border-radius : 50%;
+}
+
+#header h1 {
+	display : inline-block;
+	margin : 10px 10px 10px 10px;
+}
+
+#main {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+.icons li {
+	display: inline;
+	padding-right: 10px;
+}
+
+.fa {
+	font-size: 25px;
+	color: #000000;
+	text-decoration: none;
+}

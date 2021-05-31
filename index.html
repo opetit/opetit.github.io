@@ -96,16 +96,31 @@
 
 				<div class="row">
 					<div class="col-md-4">
-
+						<img src="images/INERRANT_550x180.png" class="img-fluid" alt="INERRANT graphical absract">
 					</div>
 					<div class="col-md-7">
 						<p>
 						<i><strong>Olivier Petit</strong>, Nicolas Thome and Luc Soler</i>.<br>
 						"Iterative Confidence Relabeling with Deep ConvNets for Organ Segmentation with Partial Labels"<br>
-						<a target="_blank" href='https://doi.org/10.1016/j.compmedimag.2021.101938'>Computerized Medical Imaging and Graphics 2021</a>, [<a href='/documents/INERRANT_CMIG_2021.pdf'>PDF</a>]
+						<a target="_blank" href='https://doi.org/10.1016/j.compmedimag.2021.101938'>Computerized Medical Imaging and Graphics</a>, 2021 [<a href='/documents/INERRANT_CMIG_2021.pdf'>PDF</a>]
 						</p>
 					</div>
+					<div class="col-md-1">
+						<button class="btn btn-secondary btn-sm" type="button" data-toggle="collapse" data-target="#abstractCMIG" aria-expanded="false" aria-controls="collapseExample">
+							Abstract
+						</button>
+					</div>
 				</div>
+				<div class="row">
+					<div class="col-md-12 mt-4">
+						<div class="collapse" id="abstractCMIG">
+							<div class="card card-body mb-3">
+								Training deep ConvNets requires large labeled datasets. However, collecting pixel-level labels for medical image segmentation is very expensive and requires a high level of expertise. In addition, most existing segmentation masks provided by clinical experts focus on specific anatomical structures. In this paper, we propose a method dedicated to handle such partially labeled medical image datasets. We propose a strategy to identify pixels for which labels are correct, and to train Fully Convolutional Neural Networks with a multi-label loss adapted to this context. In addition, we introduce an iterative confidence self-training approach inspired by curriculum learning to relabel missing pixel labels, which relies on selecting the most confident prediction with a specifically designed confidence network that learns an uncertainty measure which is leveraged in our relabeling process. Our approach, INERRANT for Iterative coNfidencE Relabeling of paRtial ANnoTations, is thoroughly evaluated on two public datasets (TCAI and LITS), and one internal dataset with seven abdominal organ classes. We show that INERRANT robustly deals with partial labels, performing similarly to a model trained on all labels even for large missing label proportions. We also highlight the importance of our iterative learning scheme and the proposed confidence measure for optimal performance. Finally we show a practical use case where a limited number of completely labeled data are enriched by publicly available but partially labeled data.	
+							</div>
+						</div>
+					</div>
+				</div>
+				
 				
 				<h5 class="mb-4">2019</h5>
 

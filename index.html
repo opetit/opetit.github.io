@@ -82,6 +82,8 @@
 				<h3 class="pt-4" id="activity">Activity</h3>
 
 				<ul>
+				  <li>07/09/2021 : accepted paper <b>3D Spatial Priors for Semi-Supervised Organ Segmentation with Deep Convolutional Neural Networks</b> at IJCARS
+				  <li>08/08/2021 : accepted paper <b>U-Net Transformer: Self and Cross Attention for Medical Image Segmentation</b> at MLMI MICCAI 2021
 				  <li>13/05/2021 : accepted paper <b>Iterative Confidence Relabeling with Deep ConvNets for Organ Segmentation with Partial Labels</b> at CMIG
 				  <li>10/04/2019 : presentation of SMILE at the <a target="_blank" href="http://www.gdr-isis.fr/index.php?page=reunion&idreunion=386">GdR ISIS</a> day [<a href="/documents/SMILE_presentation_GDR_ISIS_2019.pdf">Slides</a>]</li>
 				</ul>
@@ -93,6 +95,66 @@
 				
 				
 				<h5 class="mb-4">2021</h5>
+				
+				
+				<div class="row">
+					<div class="col-md-4">
+						
+					</div>
+					<div class="col-md-7">
+						<p>
+						<i><strong>Olivier Petit</strong>, Nicolas Thome and Luc Soler</i>.<br>
+						"3D Spatial Priors for Semi-Supervised Organ Segmentation with Deep Convolutional Neural Networks"<br>
+							<a target="_blank" href='https://www.springer.com/journal/11548/'>IJCARS 2021</a> [<a href='/documents/IJCARS_Prior_final.pdf'>PDF</a>]
+						</p>
+					</div>
+					<div class="col-md-1">
+						<button class="btn btn-secondary btn-sm" type="button" data-toggle="collapse" data-target="#abstractIJCARS_STIPPLE" aria-expanded="false" aria-controls="collapseExample">
+							Abstract
+						</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 mt-4">
+						<div class="collapse" id="abstractIJCARS_STIPPLE">
+							<div class="card card-body mb-3">
+								<p><strong>Purpose:</strong> Fully Convolutional neural Networks (FCNs) are the most popular models for medical image segmentation. However, they do not explicitly integrate spatial organ positions, which can be crucial for proper labeling in challenging contexts.</p>
+								<p><strong>Methods:</strong> In this work, we propose a method that combines a model representing prior probabilities of an organ position in 3D with visual FCN predictions by means of a generalized prior-driven prediction function. The prior is also used in a self-labeling process to handle low-data regimes, in order to improve the quality of the pseudo-label selection.</p>
+								<p><strong>Results:</strong> Experiments carried out on CT scans from the public TCIA pancreas segmentation dataset reveal that the resulting STIPPLE model can significantly increase performances compared to the FCN baseline, especially with few training images. We also show that STIPPLE outperforms state-of-the-art semi-supervised segmentation methods by leveraging the spatial prior information.</p>
+								<p><strong>Conslusion:</strong> STIPPLE provides a segmentation method effective with few labeled examples, which is crucial in the medical domain. It offers an intuitive way to incorporate absolute position information by mimicking expert annotators.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+				<div class="row">
+					<div class="col-md-4">
+						
+					</div>
+					<div class="col-md-7">
+						<p>
+						<i><strong>Olivier Petit</strong>, Nicolas Thome, Clement Rambour, Loic Themyr, Toby Collins and Luc Soler</i>.<br>
+						"U-Net Transformer: Self and Cross Attention for Medical Image Segmentation"<br>
+							<a target="_blank" href='https://miccai2021.org'>MICCAI 2021</a> workshop <a target="_blank" href='https://sites.google.com/view/mlmi2021/'>MLMI</a> [<a href='/documents/U_Transformer_MLMI_2021_final.pdf'>PDF</a>]
+						</p>
+					</div>
+					<div class="col-md-1">
+						<button class="btn btn-secondary btn-sm" type="button" data-toggle="collapse" data-target="#abstractU_Transformer" aria-expanded="false" aria-controls="collapseExample">
+							Abstract
+						</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 mt-4">
+						<div class="collapse" id="abstractU_Transformer">
+							<div class="card card-body mb-3">
+								Medical image segmentation remains particularly challenging for complex and low-contrast anatomical structures. In this paper, we introduce the U-Transformer network, which combines a U-shaped architecture for image segmentation with self- and cross-attention from Transformers. U-Transformer overcomes the inability of U-Nets to model long-range contextual interactions and spatial dependencies, which are arguably crucial for accurate segmentation in challenging contexts. To this end, attention mechanisms are incorporated at two main levels: a self-attention module leverages global interactions between encoder features, while cross-attention in the skip connections allows a fine spatial recovery in the U-Net decoder by filtering out non-semantic features. Experiments on two abdominal CT-image datasets show the large performance gain brought out by U-Transformer compared to U-Net and local Attention U-Nets. We also highlight the importance of using both self- and cross-attention, and the nice interpretability features brought out by U-Transformer.	
+							</div>
+						</div>
+					</div>
+				</div>
 
 				<div class="row">
 					<div class="col-md-4">
